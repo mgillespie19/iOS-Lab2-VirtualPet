@@ -13,6 +13,7 @@
 		F6D9942A214C1D30000DBFB7 /* Lab2_MaxGillespie.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F6D99428214C1D30000DBFB7 /* Lab2_MaxGillespie.xcdatamodeld */; };
 		F6D9942C214C1D30000DBFB7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F6D9942B214C1D30000DBFB7 /* Assets.xcassets */; };
 		F6D9942F214C1D30000DBFB7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D9942D214C1D30000DBFB7 /* LaunchScreen.storyboard */; };
+		F6D99437214C343D000DBFB7 /* DisplayView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D99436214C343D000DBFB7 /* DisplayView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		F6D9942B214C1D30000DBFB7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F6D9942E214C1D30000DBFB7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F6D99430214C1D30000DBFB7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F6D99436214C343D000DBFB7 /* DisplayView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		F6D99420214C1D30000DBFB7 /* Lab2-MaxGillespie */ = {
 			isa = PBXGroup;
 			children = (
+				F6D99436214C343D000DBFB7 /* DisplayView.swift */,
 				F6D99421214C1D30000DBFB7 /* AppDelegate.swift */,
 				F6D99423214C1D30000DBFB7 /* ViewController.swift */,
 				F6D99425214C1D30000DBFB7 /* Main.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F6D99424214C1D30000DBFB7 /* ViewController.swift in Sources */,
+				F6D99437214C343D000DBFB7 /* DisplayView.swift in Sources */,
 				F6D99422214C1D30000DBFB7 /* AppDelegate.swift in Sources */,
 				F6D9942A214C1D30000DBFB7 /* Lab2_MaxGillespie.xcdatamodeld in Sources */,
 			);

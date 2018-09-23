@@ -25,11 +25,13 @@ class Pet {
     }
     
     // Functions
-    func play() {
+    func play() -> Bool {
         if (foodLevel > 0 && happiness < 10) {
             happiness += 1
             foodLevel -= 1
+            return true
         }
+        return false
     }
     func feed() {
         if (foodLevel < 10) {

@@ -115,15 +115,23 @@
                                             <constraint firstAttribute="height" constant="30" id="yOr-1z-o28"/>
                                         </constraints>
                                     </view>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Average Pet Happiness:" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Ea5-dA-NBS">
+                                        <rect key="frame" x="20" y="271" width="153.5" height="17"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                        <nil key="textColor"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="trailing" secondItem="PuC-Ra-Q3R" secondAttribute="trailing" constant="20" id="2uT-Ed-X7L"/>
+                                    <constraint firstItem="PuC-Ra-Q3R" firstAttribute="top" secondItem="Ea5-dA-NBS" secondAttribute="bottom" constant="8" id="5xq-sa-mzV"/>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerY" secondItem="XiK-oc-xRq" secondAttribute="centerY" id="KZi-2g-rvW"/>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerX" secondItem="XiK-oc-xRq" secondAttribute="centerX" id="VlG-xw-LCh"/>
                                     <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="10" id="WEg-Y3-2N0"/>
                                     <constraint firstItem="PuC-Ra-Q3R" firstAttribute="leading" secondItem="XiK-oc-xRq" secondAttribute="leading" constant="20" id="jPg-Gl-fzk"/>
                                     <constraint firstAttribute="trailing" secondItem="PuC-Ra-Q3R" secondAttribute="trailing" constant="20" id="oTd-wg-L2s"/>
+                                    <constraint firstItem="Ea5-dA-NBS" firstAttribute="leading" secondItem="XiK-oc-xRq" secondAttribute="leading" constant="20" id="reL-H0-LcC"/>
                                     <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="20" id="rep-r2-osI"/>
                                     <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="10" id="uVT-St-8Cy"/>
                                 </constraints>

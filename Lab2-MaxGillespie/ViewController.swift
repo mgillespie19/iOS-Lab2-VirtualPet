@@ -17,7 +17,9 @@ class ViewController: UIViewController {
         Pet(h: 0, f:0, type: .fish)
     ]
     var currentPet:Pet!
+    var totalHappiness = 0
     
+    // Program Outlets
     @IBOutlet weak var playButton: UIButton!
     @IBOutlet weak var feedButton: UIButton!
     @IBOutlet weak var petBackground: UIView!
@@ -28,7 +30,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var foodView: DisplayView!
     @IBOutlet weak var allPetsHappiness: DisplayView!
     
-    
+    // Button actions
     @IBAction func dogSelected(_ sender: Any) {
         currentPet = pets[0]
         updateDisplay()
@@ -49,20 +51,18 @@ class ViewController: UIViewController {
         currentPet = pets[4]
         updateDisplay()
     }
-    
     @IBAction func playButtonPressed(_ sender: Any) {
-        print ("Play button pressed!")
+        let didPlay = currentPet.play()
+        if didPlay && totalHappiness < 50 { totalHappiness += 1 }
         
-        currentPet.play()
         updateDisplay()
     }
     @IBAction func feedButtonPressed(_ sender: Any) {
-        print ("Feed button pressed!")
-        
         currentPet.feed()
         updateDisplay()
     }
     
+    // Update function
     func updateDisplay() {
         let foodLevel = currentPet.foodLevel
         let happinessLevel = currentPet.happiness
@@ -73,6 +73,9 @@ class ViewController: UIViewController {
         happinessView.animateValue(to: CGFloat(happinessLevel) / 10)
         happinessLabel.text = String(currentPet.happiness)
         
+        // This will create a percent of the total happiness felt by all pets by dividing total happiness by the maximum total happiness that could be felt by all pets
+        allPetsHappiness.animateValue(to: CGFloat(totalHappiness) / 50)
+        
         petImage.image = currentPet.image
         petBackground.backgroundColor = currentPet.background
     }
@@ -81,9 +84,8 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        petBackground.backgroundColor = UIColor(red: 1, green: 0.46, blue: 0.46, alpha: 1)
-        
         currentPet = pets[0]
+        updateDisplay()
     }
 
     override func didReceiveMemoryWarning() {

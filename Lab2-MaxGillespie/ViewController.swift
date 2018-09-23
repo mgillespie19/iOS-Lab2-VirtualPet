@@ -26,6 +26,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var foodLabel: UILabel!
     @IBOutlet weak var happinessView: DisplayView!
     @IBOutlet weak var foodView: DisplayView!
+    @IBOutlet weak var allPetsHappiness: DisplayView!
     
     
     @IBAction func dogSelected(_ sender: Any) {
@@ -81,6 +82,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         petBackground.backgroundColor = UIColor(red: 1, green: 0.46, blue: 0.46, alpha: 1)
+        
         currentPet = pets[0]
     }
 

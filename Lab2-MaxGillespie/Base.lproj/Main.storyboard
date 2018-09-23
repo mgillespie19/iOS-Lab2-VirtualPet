@@ -108,11 +108,24 @@
                                             <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="80" id="Nbw-rh-ipv"/>
                                         </constraints>
                                     </imageView>
+                                    <view opaque="NO" alpha="0.5" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PuC-Ra-Q3R" customClass="DisplayView" customModule="Lab2_MaxGillespie" customModuleProvider="target">
+                                        <rect key="frame" x="20" y="296" width="335" height="30"/>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="yOr-1z-o28"/>
+                                        </constraints>
+                                    </view>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="PuC-Ra-Q3R" secondAttribute="trailing" constant="20" id="2uT-Ed-X7L"/>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerY" secondItem="XiK-oc-xRq" secondAttribute="centerY" id="KZi-2g-rvW"/>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerX" secondItem="XiK-oc-xRq" secondAttribute="centerX" id="VlG-xw-LCh"/>
+                                    <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="10" id="WEg-Y3-2N0"/>
+                                    <constraint firstItem="PuC-Ra-Q3R" firstAttribute="leading" secondItem="XiK-oc-xRq" secondAttribute="leading" constant="20" id="jPg-Gl-fzk"/>
+                                    <constraint firstAttribute="trailing" secondItem="PuC-Ra-Q3R" secondAttribute="trailing" constant="20" id="oTd-wg-L2s"/>
+                                    <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="20" id="rep-r2-osI"/>
+                                    <constraint firstAttribute="bottom" secondItem="PuC-Ra-Q3R" secondAttribute="bottom" constant="10" id="uVT-St-8Cy"/>
                                 </constraints>
                             </view>
                             <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Wgr-h5-Ybl">
@@ -245,6 +258,7 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
+                        <outlet property="allPetsHappiness" destination="PuC-Ra-Q3R" id="J9f-gQ-Otc"/>
                         <outlet property="feedButton" destination="j4G-4z-HfB" id="XgJ-NG-ap9"/>
                         <outlet property="foodLabel" destination="nSN-H1-PLE" id="bsS-oG-8Qy"/>
                         <outlet property="foodView" destination="ze6-Qg-71z" id="Kg1-D5-WDG"/>

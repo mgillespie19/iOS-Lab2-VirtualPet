@@ -119,22 +119,21 @@
                                 <rect key="frame" x="0.0" y="401" width="375" height="213"/>
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="Qys-zu-kGu">
-                                        <rect key="frame" x="0.0" y="0.0" width="354" height="213"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="375" height="213"/>
                                         <subviews>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" translatesAutoresizingMaskIntoConstraints="NO" id="GTu-qK-3OE">
-                                                <rect key="frame" x="0.0" y="0.0" width="354" height="101.5"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="375" height="101.5"/>
                                                 <subviews>
                                                     <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="g6v-Ob-pa5">
-                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="101.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="101.5"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="2XZ-js-wZe">
-                                                                <rect key="frame" x="0.0" y="0.0" width="354" height="101.5"/>
+                                                                <rect key="frame" x="0.0" y="0.0" width="375" height="101.5"/>
                                                                 <subviews>
                                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Qe6-Tm-9Dt" customClass="DisplayView" customModule="Lab2_MaxGillespie" customModuleProvider="target">
-                                                                        <rect key="frame" x="8" y="61.5" width="338" height="40"/>
+                                                                        <rect key="frame" x="8" y="61.5" width="359" height="40"/>
                                                                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                         <constraints>
-                                                                            <constraint firstAttribute="width" constant="338" id="EEe-o5-0gN"/>
                                                                             <constraint firstAttribute="height" constant="40" id="mQY-wT-o4c"/>
                                                                         </constraints>
                                                                     </view>
@@ -145,7 +144,7 @@
                                                                         <nil key="highlightedColor"/>
                                                                     </label>
                                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mnS-L3-3lv">
-                                                                        <rect key="frame" x="315.5" y="15" width="14" height="26.5"/>
+                                                                        <rect key="frame" x="336.5" y="15" width="14" height="26.5"/>
                                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                                         <nil key="textColor"/>
                                                                         <nil key="highlightedColor"/>
@@ -169,16 +168,15 @@
                                                 </subviews>
                                             </stackView>
                                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="10" translatesAutoresizingMaskIntoConstraints="NO" id="qCu-hu-L2g">
-                                                <rect key="frame" x="0.0" y="111.5" width="354" height="101.5"/>
+                                                <rect key="frame" x="0.0" y="111.5" width="375" height="101.5"/>
                                                 <subviews>
                                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="vt1-mv-d80">
-                                                        <rect key="frame" x="0.0" y="0.0" width="354" height="101.5"/>
+                                                        <rect key="frame" x="0.0" y="0.0" width="375" height="101.5"/>
                                                         <subviews>
                                                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ze6-Qg-71z" customClass="DisplayView" customModule="Lab2_MaxGillespie" customModuleProvider="target">
-                                                                <rect key="frame" x="8" y="61.5" width="338" height="40"/>
+                                                                <rect key="frame" x="8" y="61.5" width="359" height="40"/>
                                                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                                 <constraints>
-                                                                    <constraint firstAttribute="width" constant="338" id="DnN-BU-vEu"/>
                                                                     <constraint firstAttribute="height" constant="40" id="vCu-hb-U8G"/>
                                                                 </constraints>
                                                             </view>
@@ -189,7 +187,7 @@
                                                                 <nil key="highlightedColor"/>
                                                             </label>
                                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSN-H1-PLE">
-                                                                <rect key="frame" x="315.5" y="15" width="14" height="26.5"/>
+                                                                <rect key="frame" x="336.5" y="15" width="14" height="26.5"/>
                                                                 <constraints>
                                                                     <constraint firstAttribute="height" constant="26.5" id="wos-hk-Zb0"/>
                                                                 </constraints>
@@ -204,7 +202,6 @@
                                                             <constraint firstItem="ze6-Qg-71z" firstAttribute="top" secondItem="nSN-H1-PLE" secondAttribute="bottom" constant="20" id="6tb-Rc-cyH"/>
                                                             <constraint firstItem="nSN-H1-PLE" firstAttribute="top" secondItem="vt1-mv-d80" secondAttribute="top" constant="15" id="BoO-Bs-r7V"/>
                                                             <constraint firstItem="ze6-Qg-71z" firstAttribute="leading" secondItem="vt1-mv-d80" secondAttribute="leading" constant="8" id="EdZ-6Q-uFN"/>
-                                                            <constraint firstAttribute="bottom" secondItem="ze6-Qg-71z" secondAttribute="bottom" id="Eo5-4g-teM"/>
                                                             <constraint firstAttribute="trailing" secondItem="nSN-H1-PLE" secondAttribute="trailing" constant="24.5" id="ODi-0l-Zvs"/>
                                                             <constraint firstItem="ze6-Qg-71z" firstAttribute="top" secondItem="HvI-XI-9w2" secondAttribute="bottom" constant="20" id="fHy-Q5-HKS"/>
                                                             <constraint firstItem="HvI-XI-9w2" firstAttribute="leading" secondItem="vt1-mv-d80" secondAttribute="leading" constant="8" id="gj6-Gd-kdP"/>
@@ -216,14 +213,6 @@
                                         </subviews>
                                         <variation key="heightClass=compact" axis="horizontal"/>
                                     </stackView>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="rWl-Sw-Jne">
-                                        <rect key="frame" x="354" y="0.0" width="0.0" height="213"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
-                                    <view contentMode="scaleToFill" ambiguous="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pTh-Pq-Wjh">
-                                        <rect key="frame" x="354" y="0.0" width="21" height="213"/>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    </view>
                                 </subviews>
                             </stackView>
                         </subviews>

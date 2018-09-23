@@ -25,26 +25,41 @@
                                         <rect key="frame" x="0.0" y="0.0" width="54" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Dog"/>
+                                        <connections>
+                                            <action selector="dogSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="18n-TU-aLj"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wf4-GS-grN">
                                         <rect key="frame" x="74" y="0.0" width="54" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Cat"/>
+                                        <connections>
+                                            <action selector="catSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="dcP-0Z-98g"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="RZD-pE-ZfD">
                                         <rect key="frame" x="148" y="0.0" width="54" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Bird"/>
+                                        <connections>
+                                            <action selector="birdSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsq-5r-ZQu"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Vt-9j-sfP">
                                         <rect key="frame" x="222" y="0.0" width="54" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Bunny"/>
+                                        <connections>
+                                            <action selector="bunnySelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JL9-MN-LJk"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7Fm-PG-AyC">
                                         <rect key="frame" x="296" y="0.0" width="54" height="30"/>
                                         <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                         <state key="normal" title="Fish"/>
+                                        <connections>
+                                            <action selector="fishSelected:" destination="BYZ-38-t0r" eventType="touchUpInside" id="Knq-U2-htz"/>
+                                        </connections>
                                     </button>
                                 </subviews>
                                 <constraints>
@@ -134,7 +149,6 @@
                                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSN-H1-PLE">
                                                         <rect key="frame" x="315.5" y="15" width="14" height="26.5"/>
                                                         <constraints>
-                                                            <constraint firstAttribute="width" constant="14" id="qAZ-Fd-N7i"/>
                                                             <constraint firstAttribute="height" constant="26.5" id="wos-hk-Zb0"/>
                                                         </constraints>
                                                         <fontDescription key="fontDescription" type="system" pointSize="22"/>
@@ -170,6 +184,9 @@
                                 <state key="normal" title="Play">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="playButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ngR-uz-mKo"/>
+                                </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="j4G-4z-HfB">
                                 <rect key="frame" x="212.5" y="344" width="132.5" height="45"/>
@@ -181,6 +198,9 @@
                                 <state key="normal" title="Feed">
                                     <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
+                                <connections>
+                                    <action selector="feedButtonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="5kQ-Nv-GEi"/>
+                                </connections>
                             </button>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="XiK-oc-xRq">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="336"/>
@@ -193,7 +213,7 @@
                                         </constraints>
                                     </imageView>
                                 </subviews>
-                                <color key="backgroundColor" red="1" green="0.34197732648889734" blue="0.28025521847803248" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerY" secondItem="XiK-oc-xRq" secondAttribute="centerY" id="KZi-2g-rvW"/>
                                     <constraint firstItem="4YV-nO-FDy" firstAttribute="centerX" secondItem="XiK-oc-xRq" secondAttribute="centerX" id="VlG-xw-LCh"/>
@@ -223,6 +243,16 @@
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="feedButton" destination="j4G-4z-HfB" id="XgJ-NG-ap9"/>
+                        <outlet property="foodLabel" destination="nSN-H1-PLE" id="bsS-oG-8Qy"/>
+                        <outlet property="foodView" destination="ze6-Qg-71z" id="Kg1-D5-WDG"/>
+                        <outlet property="happinessLabel" destination="mnS-L3-3lv" id="xd9-7A-Mpf"/>
+                        <outlet property="happinessView" destination="Qe6-Tm-9Dt" id="bvp-1d-yhH"/>
+                        <outlet property="petBackground" destination="XiK-oc-xRq" id="27K-eI-SvK"/>
+                        <outlet property="petImage" destination="4YV-nO-FDy" id="wbu-A1-0Q1"/>
+                        <outlet property="playButton" destination="jYJ-4z-k3I" id="2mM-i0-8aj"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

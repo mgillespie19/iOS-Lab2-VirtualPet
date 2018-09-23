@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F68712E32156AF3E001D7A3B /* Pet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F68712E22156AF3E001D7A3B /* Pet.swift */; };
 		F6D99422214C1D30000DBFB7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D99421214C1D30000DBFB7 /* AppDelegate.swift */; };
 		F6D99424214C1D30000DBFB7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D99423214C1D30000DBFB7 /* ViewController.swift */; };
 		F6D99427214C1D30000DBFB7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F6D99425214C1D30000DBFB7 /* Main.storyboard */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F68712E22156AF3E001D7A3B /* Pet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pet.swift; sourceTree = "<group>"; };
 		F6D9941E214C1D30000DBFB7 /* Lab2-MaxGillespie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Lab2-MaxGillespie.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F6D99421214C1D30000DBFB7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F6D99423214C1D30000DBFB7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -59,6 +61,7 @@
 			isa = PBXGroup;
 			children = (
 				F6D99436214C343D000DBFB7 /* DisplayView.swift */,
+				F68712E22156AF3E001D7A3B /* Pet.swift */,
 				F6D99421214C1D30000DBFB7 /* AppDelegate.swift */,
 				F6D99423214C1D30000DBFB7 /* ViewController.swift */,
 				F6D99425214C1D30000DBFB7 /* Main.storyboard */,
@@ -144,6 +147,7 @@
 				F6D99424214C1D30000DBFB7 /* ViewController.swift in Sources */,
 				F6D99437214C343D000DBFB7 /* DisplayView.swift in Sources */,
 				F6D99422214C1D30000DBFB7 /* AppDelegate.swift in Sources */,
+				F68712E32156AF3E001D7A3B /* Pet.swift in Sources */,
 				F6D9942A214C1D30000DBFB7 /* Lab2_MaxGillespie.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

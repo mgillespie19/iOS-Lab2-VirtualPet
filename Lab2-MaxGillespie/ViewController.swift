@@ -68,10 +68,10 @@ class ViewController: UIViewController {
         let happinessLevel = currentPet.happiness
         
         foodView.animateValue(to: CGFloat(foodLevel) / 10)
-        foodLabel.text = String(currentPet.foodLevel)
+        foodLabel.text = String("fed: \(currentPet.foodLevel)")
         
         happinessView.animateValue(to: CGFloat(happinessLevel) / 10)
-        happinessLabel.text = String(currentPet.happiness)
+        happinessLabel.text = String("played: \(currentPet.happiness)")
         
         // This will create a percent of the total happiness felt by all pets by dividing total happiness by the maximum total happiness that could be felt by all pets
         allPetsHappiness.animateValue(to: CGFloat(totalHappiness) / 50)
